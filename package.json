@@ -1,0 +1,22 @@
+{
+  "name": "loading",
+  "version": "1.0.0",
+  "description": "favicon loading",
+  "main": "main.js",
+  "scripts": {
+    "build": "mkdir -p dist/public && cp -r public/* dist/public/. && tsc",
+    "start": "cd dist && node index.js",
+    "ts-lint": "tslint --config tslint.json 'src/*.ts'"
+  },
+  "author": "cyrille.meichel <cyrille.meichel@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.10.2",
+    "node-ts": "^5.0.0",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.2.4"
+  }
+}
